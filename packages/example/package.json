@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "author": "Physical Stores Team",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "start": "yarn develop"
+  },
+  "dependencies": {
+    "@vtexlab/gatsby-theme-instore-core": "^0.0.1",
+    "@vtex/gatsby-instore-plugin-example": "^0.0.1",
+    "gatsby": "^2.32.2"
+  }
+}
