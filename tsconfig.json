@@ -1,6 +1,7 @@
 {
   "extends": "@vtex/tsconfig",
   "compilerOptions": {
+    "types": ["@emotion/react/types/css-prop"],
     "strict": true
   }
 }
