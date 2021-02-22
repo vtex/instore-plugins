@@ -1,12 +1,11 @@
 {
   "name": "@vtex/gatsby-instore-plugin-example",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Physical Stores Team",
   "scripts": {},
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {},
   "peerDependencies": {
     "@vtexlab/gatsby-theme-instore-core": "^0.0.5",
     "gatsby": "^2.32.2"
