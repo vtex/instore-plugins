@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@vtex/gatsby-instore-plugin-example": "^0.0.3",
-    "@vtexlab/gatsby-theme-instore-core": "^0.0.2",
+    "@vtexlab/gatsby-theme-instore-core": "^0.0.5",
     "gatsby": "^2.32.2"
   }
 }
