@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "author": "Physical Stores Team",
   "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@vtex/admin-ui": "^0.81.0",
     "react": "^17.0.1",
