@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Physical Stores Team",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "start": "yarn develop"
   },
   "dependencies": {
-    "@vtex/gatsby-instore-plugin-example": "^0.0.4",
+    "@vtex/gatsby-instore-plugin-example": "^0.0.5",
     "@vtexlab/gatsby-theme-instore-core": "^0.0.8",
     "gatsby": "^2.32.2"
   }
