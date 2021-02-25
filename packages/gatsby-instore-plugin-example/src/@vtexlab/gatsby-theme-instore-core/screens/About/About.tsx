@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react'
 import type { FC } from 'react'
 import { Heading, Paragraph, Button, Alert, useSystem } from '@vtex/admin-ui'
 
-export const AboutScreen: FC<{ path: string }> = () => {
+export const AboutScreen: FC = () => {
   const [showSecret, setShowSecret] = useState(false)
   const { cn } = useSystem()
 
