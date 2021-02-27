@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 import type { FC } from 'react'
-import { MenuItems as BaseMenuItems } from '@vtexlab/gatsby-theme-instore-core/src/screens/Instore/components/Menu/MenuItems'
-import type { MenuItemType } from '@vtexlab/gatsby-theme-instore-core/src/screens/Instore/components/Menu/MenuItem'
-import { MenuItemWrapper } from '@vtexlab/gatsby-theme-instore-core/src/screens/Instore/components/Menu/MenuItem'
+import { MenuItems as BaseMenuItems } from '@vtexlab/gatsby-theme-instore-core/src/screens/Instore/components/Menu/MenuItems.pub'
+import type { MenuItemType } from '@vtexlab/gatsby-theme-instore-core/src/screens/Instore/components/Menu/MenuItem.pub'
+import { MenuItemWrapper } from '@vtexlab/gatsby-theme-instore-core/src/screens/Instore/components/Menu/MenuItem.pub'
 
-import { AboutMenuItem } from './AboutMenuItem'
+import { AboutMenuItem } from './AboutMenuItem.single.pub'
 
 export const AnotherAboutMenuItem: MenuItemType = ({
   children = 'Another about link',

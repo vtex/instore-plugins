@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSystem } from '@vtex/admin-ui'
-import { AboutMenuItem as BaseMenuItem } from '@vtexlab/gatsby-theme-instore-core/src/screens/Instore/components/Menu/AboutMenuItem'
-import type { MenuItemType } from '@vtexlab/gatsby-theme-instore-core/src/screens/Instore/components/Menu/MenuItem'
+import { AboutMenuItem as BaseMenuItem } from '@vtexlab/gatsby-theme-instore-core/src/screens/Instore/components/Menu/AboutMenuItem.single.pub'
+import type { MenuItemType } from '@vtexlab/gatsby-theme-instore-core/src/screens/Instore/components/Menu/MenuItem.pub'
 
 export const AboutMenuItem: MenuItemType = ({
   children = 'Custom About',

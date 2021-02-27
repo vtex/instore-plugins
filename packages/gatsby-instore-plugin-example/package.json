@@ -7,7 +7,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@vtexlab/gatsby-theme-instore-core": "^0.0.11",
+    "@vtexlab/gatsby-theme-instore-core": "^0.0.12",
     "gatsby": "^2.32.2"
   },
   "devDependencies": {
