@@ -4,7 +4,7 @@ import { Heading, Paragraph, Card, Set } from '@vtex/admin-ui'
 
 export const CRMScreen: FC = () => {
   return (
-    <Card styleOverrides={{ width: '32rem' }}>
+    <Card csx={{ width: '32rem' }}>
       <Set orientation="vertical" spacing={3} fluid>
         <Heading>CRM</Heading>
         <Paragraph>

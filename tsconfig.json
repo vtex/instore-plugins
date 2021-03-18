@@ -2,7 +2,6 @@
   "extends": "@vtex/tsconfig",
   "compilerOptions": {
     "module": "esnext",
-    "types": ["@emotion/react/types/css-prop"],
     "strict": true
   }
 }

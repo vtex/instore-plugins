@@ -8,9 +8,7 @@ export const AboutScreen: FC = () => {
 
   return (
     <Fragment>
-      <Heading
-        styleOverrides={{ marginTop: 0, marginBottom: 64, maxWidth: 320 }}
-      >
+      <Heading csx={{ marginTop: 0, marginBottom: 64, maxWidth: 320 }}>
         Custom About
       </Heading>
       <Paragraph>
