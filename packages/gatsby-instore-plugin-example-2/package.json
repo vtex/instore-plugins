@@ -5,10 +5,5 @@
   "scripts": {},
   "publishConfig": {
     "access": "public"
-  },
-  "peerDependencies": {
-    "@vtexlab/gatsby-theme-instore-core": "^0.0.26-beta.1",
-    "@vtexlab/gatsby-theme-instore-poc": "^0.0.26-beta.1",
-    "gatsby": "^2.32.2"
   }
 }
