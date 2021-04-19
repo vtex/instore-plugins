@@ -13,8 +13,8 @@
     "@vtex/gatsby-instore-plugin-example": "^0.0.11",
     "@vtex/gatsby-instore-plugin-example-2": "^0.0.11",
     "@vtex/gatsby-instore-plugin-example-3": "^0.0.11",
-    "@vtexlab/gatsby-theme-instore-core": "^0.0.26-beta.3",
-    "@vtexlab/gatsby-theme-instore-poc": "^0.0.26-beta.3",
+    "@vtexlab/gatsby-theme-instore-core": "^0.0.27",
+    "@vtexlab/gatsby-theme-instore-poc": "^0.0.27",
     "gatsby": "^2.32.12"
   }
 }

@@ -7,6 +7,9 @@ module.exports = {
       options: { tenant: STORE_ID },
     },
     {
+      resolve: '@vtexlab/gatsby-theme-instore-poc',
+    },
+    {
       resolve: '@vtex/gatsby-instore-plugin-example',
     },
     {

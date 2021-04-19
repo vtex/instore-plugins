@@ -3103,10 +3103,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@^0.0.26-beta.3":
-  version "0.0.26-beta.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.26-beta.3.tgz#258f889e7738847cd96d2d022580145836e8fbb1"
-  integrity sha512-HL4KKsDH4JsrUsC+SiKvq4nml5ECu76nGVMDko+mhkTUYnZvlUbeuTWVSku61ERwP19m5fSaM7rl9zZ0RmNprg==
+"@vtexlab/gatsby-theme-instore-core@^0.0.27":
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.27.tgz#c1bbde880e636e0a054a0153df6ad7fb6e77a221"
+  integrity sha512-yWcjWsQB4EFII4OBKQhkfi1QLMhZBEsdNXFEr7Tf+aVNReWxnzrlPAxdQvyTeNcjJxloCs/NXtAwKVM563gIHA==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3141,17 +3141,17 @@
     recharts "^2.0.0-beta.1"
     redux-persist "^6.0.0"
     relay-hooks "^4.2.0"
-    relay-runtime "^11.0.0"
+    relay-runtime "11.0.0"
     swr "^0.5.0"
     use-state-with-callback "^2.0.3"
     uuid "^8.3.2"
     vtex-tachyons "^3.2.2"
     vtex.styleguide "npm:@vtex/styleguide@9.136.2"
 
-"@vtexlab/gatsby-theme-instore-poc@^0.0.26-beta.3":
-  version "0.0.26-beta.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-poc/-/gatsby-theme-instore-poc-0.0.26-beta.3.tgz#3f1807be098f7477cbff36daa0452bbf6be868b1"
-  integrity sha512-7wgHM66jYFur45wN/fRUeY86syU8BODe8/BSJ4LVCOKYbJjHfDiHae4CW5GN8Ldjs1F+tgvAXsrAGVplGjlX9w==
+"@vtexlab/gatsby-theme-instore-poc@^0.0.27":
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-poc/-/gatsby-theme-instore-poc-0.0.27.tgz#54a5d9d80c56ea882cc753ee413811f61583e0ae"
+  integrity sha512-oX3SopxL0Xx/ktZ6H0xLRH0yM6wWEeckntfln/vS9Qbgo8iYVL7+8G/69mtB25/OkR10d2zNsW20Q4C5O0kZXQ==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -14465,7 +14465,15 @@ relay-runtime@10.1.0:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.0"
 
-relay-runtime@11.0.2, relay-runtime@^11.0.0:
+relay-runtime@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-11.0.0.tgz#cb3244dc4e2919a51fdcbedddd5d13a20cf393e8"
+  integrity sha512-7oeyW4hulyK3p4eB63Rsllo/es83xflCAt2HMWCpH2q0fi21iJBR02kK3wCPM/yFwi3i0K83W+UksLFQdE0CaQ==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    fbjs "^3.0.0"
+
+relay-runtime@11.0.2:
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-11.0.2.tgz#c3650477d45665b9628b852b35f203e361ad55e8"
   integrity sha512-xxZkIRnL8kNE1cxmwDXX8P+wSeWLR+0ACFyAiAhvfWWAyjXb+bhjJ2FSsRGlNYfkqaTNEuDqpnodQV1/fF7Idw==
